@@ -12,8 +12,8 @@ function mainList(data){
          for (var i=0; i < data.length; i++) {
              let imagePath = arr[i].image;
              lis+=`     <tr class=''>
-                            <td><img class='imageStyle' src="${imagePath}" alt=''></td>
                             <td>${arr[i].id}</td>
+                            <td><img class='imageStyle' src="${imagePath}" alt=''></td>
                             <td>${arr[i].title} </td>
                             <td>${arr[i].category}</td>
                             <td>${arr[i].description}</td>

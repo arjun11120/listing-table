@@ -1,10 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .imageStyle{
-    height: 50px;
+    height: 80px;
     width: auto;
     vertical-align: super;
 }
 .table-row{
-    background: black;
+    background: #04AA6D;
     color: white;
     padding: 20px;
 }
@@ -12,11 +16,17 @@ tr,th{
     padding: 15px;
 }
 table{
-    width: 100%;
+    border-collapse: collapse;
 }
 td{
     text-align: center;
 }
-tr,td{
-    border: 1px solid rgb(165, 165, 165);
+tr:nth-child(even) {
+    background:#e7e9eb;
+}
+td:nth-child(2) {
+    background: white;
+    border-right: 1px solid #e7e9eb;
+    border-bottom: 1px solid #e7e9eb;
+    padding: 4px;
 }
