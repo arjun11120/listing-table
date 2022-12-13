@@ -1,0 +1,22 @@
+.imageStyle{
+    height: 50px;
+    width: auto;
+    vertical-align: super;
+}
+.table-row{
+    background: black;
+    color: white;
+    padding: 20px;
+}
+tr,th{
+    padding: 15px;
+}
+table{
+    width: 100%;
+}
+td{
+    text-align: center;
+}
+tr,td{
+    border: 1px solid rgb(165, 165, 165);
+}
